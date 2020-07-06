@@ -1,0 +1,3 @@
+/home/wneupane/Documents/github/startup_idea/CmakeFiles/CMakeFiles/rebuild_cache.dir
+/home/wneupane/Documents/github/startup_idea/CmakeFiles/CMakeFiles/edit_cache.dir
+/home/wneupane/Documents/github/startup_idea/CmakeFiles/CMakeFiles/launch.dir
