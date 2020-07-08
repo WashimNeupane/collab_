@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "opencv2/objdetect.hpp"
 #include "opencv2/highgui.hpp"
 #include "opencv2/imgproc.hpp"
@@ -247,3 +248,25 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade,
     }
     imshow( "result", img );
 }
+=======
+//Contributors: Washim S. Neupane
+#include <opencv2/highgui.hpp>
+#include <iostream>
+ 
+int main( int argc, char** argv ) {
+  
+  cv::Mat image;
+  image = cv::imread("sample.jpeg");
+  
+  if(! image.data ) {
+      std::cout <<  "Could not open or find the image" << std::endl ;
+      return -1;
+    }
+  
+  cv::namedWindow( "Display window", cv::WINDOW_AUTOSIZE );
+  cv::imshow( "Display window", image );
+  
+  cv::waitKey(0);
+  return 0;
+}
+>>>>>>> b4cf27cdd24f33dac9d2096f32075e8fb3afb58d
