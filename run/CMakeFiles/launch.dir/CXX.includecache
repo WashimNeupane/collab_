@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/wneupane/Documents/github/startup_idea/main.cpp
+/home/wneupane/Documents/github/collab_/main.cpp
+opencv2/objdetect.hpp
+/home/wneupane/Documents/github/collab_/opencv2/objdetect.hpp
 opencv2/highgui.hpp
--
+/home/wneupane/Documents/github/collab_/opencv2/highgui.hpp
+opencv2/imgproc.hpp
+/home/wneupane/Documents/github/collab_/opencv2/imgproc.hpp
+opencv2/videoio.hpp
+/home/wneupane/Documents/github/collab_/opencv2/videoio.hpp
 iostream
 -
 
@@ -337,6 +343,22 @@ opencv2/videoio.hpp
 /usr/local/include/opencv4/opencv2/imgcodecs.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core.hpp
+
+/usr/local/include/opencv4/opencv2/imgproc.hpp
+opencv2/core.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core.hpp
+
+/usr/local/include/opencv4/opencv2/objdetect.hpp
+opencv2/core.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core.hpp
+opencv2/objdetect/detection_based_tracker.hpp
+/usr/local/include/opencv4/opencv2/opencv2/objdetect/detection_based_tracker.hpp
+
+/usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
+opencv2/core.hpp
+-
+vector
+-
 
 /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 

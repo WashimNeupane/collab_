@@ -68,10 +68,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wneupane/Documents/github/startup_idea/CmakeFiles
+CMAKE_SOURCE_DIR = /home/wneupane/Documents/github/collab_/run
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wneupane/Documents/github/startup_idea/CmakeFiles
+CMAKE_BINARY_DIR = /home/wneupane/Documents/github/collab_/run
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wneupane/Documents/github/startup_idea/CmakeFiles/CMakeFiles /home/wneupane/Documents/github/startup_idea/CmakeFiles/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wneupane/Documents/github/collab_/run/CMakeFiles /home/wneupane/Documents/github/collab_/run/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wneupane/Documents/github/startup_idea/CmakeFiles/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wneupane/Documents/github/collab_/run/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,32 @@ launch/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/launch.dir/build.make CMakeFiles/launch.dir/build
 .PHONY : launch/fast
 
-home/wneupane/Documents/github/startup_idea/main.o: home/wneupane/Documents/github/startup_idea/main.cpp.o
+home/wneupane/Documents/github/collab_/main.o: home/wneupane/Documents/github/collab_/main.cpp.o
 
-.PHONY : home/wneupane/Documents/github/startup_idea/main.o
+.PHONY : home/wneupane/Documents/github/collab_/main.o
 
 # target to build an object file
-home/wneupane/Documents/github/startup_idea/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/launch.dir/build.make CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.o
-.PHONY : home/wneupane/Documents/github/startup_idea/main.cpp.o
+home/wneupane/Documents/github/collab_/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/launch.dir/build.make CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.o
+.PHONY : home/wneupane/Documents/github/collab_/main.cpp.o
 
-home/wneupane/Documents/github/startup_idea/main.i: home/wneupane/Documents/github/startup_idea/main.cpp.i
+home/wneupane/Documents/github/collab_/main.i: home/wneupane/Documents/github/collab_/main.cpp.i
 
-.PHONY : home/wneupane/Documents/github/startup_idea/main.i
+.PHONY : home/wneupane/Documents/github/collab_/main.i
 
 # target to preprocess a source file
-home/wneupane/Documents/github/startup_idea/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/launch.dir/build.make CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.i
-.PHONY : home/wneupane/Documents/github/startup_idea/main.cpp.i
+home/wneupane/Documents/github/collab_/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/launch.dir/build.make CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.i
+.PHONY : home/wneupane/Documents/github/collab_/main.cpp.i
 
-home/wneupane/Documents/github/startup_idea/main.s: home/wneupane/Documents/github/startup_idea/main.cpp.s
+home/wneupane/Documents/github/collab_/main.s: home/wneupane/Documents/github/collab_/main.cpp.s
 
-.PHONY : home/wneupane/Documents/github/startup_idea/main.s
+.PHONY : home/wneupane/Documents/github/collab_/main.s
 
 # target to generate assembly for a file
-home/wneupane/Documents/github/startup_idea/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/launch.dir/build.make CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.s
-.PHONY : home/wneupane/Documents/github/startup_idea/main.cpp.s
+home/wneupane/Documents/github/collab_/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/launch.dir/build.make CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.s
+.PHONY : home/wneupane/Documents/github/collab_/main.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... launch"
-	@echo "... home/wneupane/Documents/github/startup_idea/main.o"
-	@echo "... home/wneupane/Documents/github/startup_idea/main.i"
-	@echo "... home/wneupane/Documents/github/startup_idea/main.s"
+	@echo "... home/wneupane/Documents/github/collab_/main.o"
+	@echo "... home/wneupane/Documents/github/collab_/main.i"
+	@echo "... home/wneupane/Documents/github/collab_/main.s"
 .PHONY : help
 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/wneupane/Documents/github/startup_idea/CmakeFiles
+# Install script for directory: /home/wneupane/Documents/github/collab_/run
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wneupane/Documents/github/startup_idea/CmakeFiles/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/wneupane/Documents/github/collab_/run/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

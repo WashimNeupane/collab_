@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.o"
+  "CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.o"
   "launch"
   "launch.pdb"
 )

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wneupane/Documents/github/startup_idea/main.cpp" "/home/wneupane/Documents/github/startup_idea/CmakeFiles/CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.o"
+  "/home/wneupane/Documents/github/collab_/main.cpp" "/home/wneupane/Documents/github/collab_/run/CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -64,10 +64,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wneupane/Documents/github/startup_idea/CmakeFiles
+CMAKE_SOURCE_DIR = /home/wneupane/Documents/github/collab_/run
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wneupane/Documents/github/startup_idea/CmakeFiles
+CMAKE_BINARY_DIR = /home/wneupane/Documents/github/collab_/run
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/launch.dir/clean
 CMakeFiles/launch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/launch.dir/build.make CMakeFiles/launch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/launch.dir/build.make CMakeFiles/launch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wneupane/Documents/github/startup_idea/CmakeFiles/CMakeFiles --progress-num=1,2 "Built target launch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wneupane/Documents/github/collab_/run/CMakeFiles --progress-num=1,2 "Built target launch"
 .PHONY : CMakeFiles/launch.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/launch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wneupane/Documents/github/startup_idea/CmakeFiles/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wneupane/Documents/github/collab_/run/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/launch.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wneupane/Documents/github/startup_idea/CmakeFiles/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wneupane/Documents/github/collab_/run/CMakeFiles 0
 .PHONY : CMakeFiles/launch.dir/rule
 
 # Convenience name for target.

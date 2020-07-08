@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wneupane/Documents/github/startup_idea/CmakeFiles
+CMAKE_SOURCE_DIR = /home/wneupane/Documents/github/collab_/run
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wneupane/Documents/github/startup_idea/CmakeFiles
+CMAKE_BINARY_DIR = /home/wneupane/Documents/github/collab_/run
 
 # Include any dependencies generated for this target.
 include CMakeFiles/launch.dir/depend.make
@@ -77,27 +77,27 @@ include CMakeFiles/launch.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/launch.dir/flags.make
 
-CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.o: CMakeFiles/launch.dir/flags.make
-CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.o: /home/wneupane/Documents/github/startup_idea/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wneupane/Documents/github/startup_idea/CmakeFiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.o -c /home/wneupane/Documents/github/startup_idea/main.cpp
+CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.o: CMakeFiles/launch.dir/flags.make
+CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.o: /home/wneupane/Documents/github/collab_/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wneupane/Documents/github/collab_/run/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.o -c /home/wneupane/Documents/github/collab_/main.cpp
 
-CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wneupane/Documents/github/startup_idea/main.cpp > CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.i
+CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wneupane/Documents/github/collab_/main.cpp > CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.i
 
-CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wneupane/Documents/github/startup_idea/main.cpp -o CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.s
+CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wneupane/Documents/github/collab_/main.cpp -o CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.s
 
 # Object files for target launch
 launch_OBJECTS = \
-"CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.o"
+"CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.o"
 
 # External object files for target launch
 launch_EXTERNAL_OBJECTS =
 
-launch: CMakeFiles/launch.dir/home/wneupane/Documents/github/startup_idea/main.cpp.o
+launch: CMakeFiles/launch.dir/home/wneupane/Documents/github/collab_/main.cpp.o
 launch: CMakeFiles/launch.dir/build.make
 launch: /usr/local/lib/libopencv_gapi.so.4.4.0
 launch: /usr/local/lib/libopencv_stitching.so.4.4.0
@@ -150,7 +150,7 @@ launch: /usr/local/lib/libopencv_photo.so.4.4.0
 launch: /usr/local/lib/libopencv_imgproc.so.4.4.0
 launch: /usr/local/lib/libopencv_core.so.4.4.0
 launch: CMakeFiles/launch.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wneupane/Documents/github/startup_idea/CmakeFiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable launch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wneupane/Documents/github/collab_/run/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable launch"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/launch.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -163,6 +163,6 @@ CMakeFiles/launch.dir/clean:
 .PHONY : CMakeFiles/launch.dir/clean
 
 CMakeFiles/launch.dir/depend:
-	cd /home/wneupane/Documents/github/startup_idea/CmakeFiles && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wneupane/Documents/github/startup_idea/CmakeFiles /home/wneupane/Documents/github/startup_idea/CmakeFiles /home/wneupane/Documents/github/startup_idea/CmakeFiles /home/wneupane/Documents/github/startup_idea/CmakeFiles /home/wneupane/Documents/github/startup_idea/CmakeFiles/CMakeFiles/launch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wneupane/Documents/github/collab_/run && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wneupane/Documents/github/collab_/run /home/wneupane/Documents/github/collab_/run /home/wneupane/Documents/github/collab_/run /home/wneupane/Documents/github/collab_/run /home/wneupane/Documents/github/collab_/run/CMakeFiles/launch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/launch.dir/depend
 
